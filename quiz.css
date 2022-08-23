@@ -1,0 +1,152 @@
+body{
+    background-color: #ffedd5;
+}
+.header{
+    display: block;
+    text-align: center;
+  margin:auto;
+    max-width: 600px;
+    background-color:#fb923c;
+   padding: 0.5rem;
+}
+.header h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0px 1px 0px 1px;
+}
+.pages{
+    display:block;
+    
+}
+.non-bullet{
+    list-style-type: none;
+
+}
+.inline{
+    display: inline;
+    padding:1rem;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 21px;
+    
+}
+.links{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    max-width: 500px;
+    background-color:#fb923c;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-weight: bold;
+   
+}
+.container h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-stretch: narrower;
+    text-align: center;
+}
+.quiz-form{
+    display:block;
+}
+.question-container{
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 23px;
+
+}
+.question-container span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+.question-container p{
+    text-align:justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.5px;
+}
+.question-container label  {
+        padding-inline-start: 0rem;
+        padding-inline: 0.5rem;
+        cursor: pointer;
+}
+.question-container input{
+        text-align: left;
+        cursor: pointer;
+        margin: 0rem 0.4rem;
+}
+#submit-answer{
+    
+        background-color:#7c2d12
+        ;
+        border: 0px;
+        border-radius: 10px;
+        color: white;
+        padding: 0.5rem;
+        font-size: 18px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    
+}
+
+#result{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+#score{
+    margin-top: 0.2rem;
+    padding: 0.2rem;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+.footer {
+    margin: 1rem 2rem 2rem 2rem;
+    border-top: 2px solid black;
+}
+
+.footer div {
+    color: black;
+    text-align: center;
+    padding: 1rem;    
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 29px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer .with-para {
+    padding-inline: 0rem;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
