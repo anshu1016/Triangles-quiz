@@ -23,7 +23,7 @@ function showIntro(){
     if (getName === null || !isNaN(getName)){
         alert("Invalid name, Enter your name with only string not any numbers or special characters..");
       }else{12342314
-        showName.innerText = "Hello "+ getName +" , Let's begin the quiz..\n Best of Luck..";
+        showName.innerText = "Hello "+ getName +" , Let's begin the quiz.\n Best of Luck..";
       }
 }
 
