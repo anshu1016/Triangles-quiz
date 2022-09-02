@@ -2,6 +2,16 @@ const quizdata = document.querySelector('.quiz-form');
 const submitBtn = document.querySelector("#submit-answer");
 const showResult = document.querySelector("#result");
 const showName = document.querySelector(".name");
+
+let links = document.querySelectorAll(".pages a");
+let bodyId = document.querySelector("body").id;
+ 
+for(let link of links){
+    if(link.dataset.active == bodyId){
+        link.classList.add("active");
+    }
+}
+
 const showHighScore = document.querySelector("#score");
 const answers = ["Right","Equilateral","Scalene","Isosceles","180","360","90","90","180","180 and 270"];
 const highScores = [
