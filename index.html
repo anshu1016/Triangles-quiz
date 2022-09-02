@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> Traiangle| Quiz </title>
 </head>
-<body><div class="header">
+<body id="quiz">
+    <div class="header">
     <h1>Triangles</h1>
     <nav class="pages">
         <ul class="non-bullet">
-            <li class="inline"><a href="https://as-traingles-quiz.netlify.app/"class="links" target="_self">Quiz</a></li>
-            <li class="inline"><a href="https://as-triangle-area.netlify.app/"class="links" target="_self">Area</a></li>
-            <li class="inline"><a href="https://as-complete-triangle.netlify.app/"class="links" target="_self">IsTriangle</a></li>
-            <li class="inline"><a href="https://as-hypotenuse.netlify.app/"class="links" target="_self">Hypotenuse</a></li>
+            <li class="inline"><a data-active="quiz" href="https://as-traingles-quiz.netlify.app/"class="links" target="_self">Quiz</a></li>
+            <li class="inline"><a data-active="area" href="https://as-triangle-area.netlify.app/"class="links" target="_self">Area</a></li>
+            <li class="inline"><a data-active="IsTriangle" href="https://as-complete-triangle.netlify.app/"class="links" target="_self">IsTriangle</a></li>
+            <li class="inline"><a data-active="hypo" href="https://as-hypotenuse.netlify.app/"class="links" target="_self">Hypotenuse</a></li>
         </ul>
     </nav>
 </div><br><br>
@@ -26,65 +27,65 @@
         <form  class="quiz-form">
             <div class="question-container">
                 <p><span>Que1: </span>An angle whose measure is exactly 90 degrees.</p>
-                <label for="mcq"><input type="radio" value="Acute" name="question1">Acute</label>
-                <label for="mcq"><input type="radio" value="vertical" name="question1">vertical</label>
-                <label for="mcq"><input type="radio" value="Right" name="question1">Right</label>
+                <label><input type="radio" value="Acute" name="question1">Acute</label>
+                <label><input type="radio" value="vertical" name="question1">vertical</label>
+                <label><input type="radio" value="Right" name="question1">Right</label>
             </div>
             <div class="question-container">
                 <p><span>Que2: </span>What type of triangle has 3 congruent sides? Congruent means equal.</p>
-                <label for="mcq"><input type="radio" value="Equilateral" name="question2">Equilateral</label>
-                <label for="mcq"><input type="radio" value="Scalene" name="question2">Scalene</label>
-                <label for="mcq"><input type="radio" value="Isosceles" name="question2">Isosceles</label>
+                <label><input type="radio" value="Equilateral" name="question2">Equilateral</label>
+                <label><input type="radio" value="Scalene" name="question2">Scalene</label>
+                <label><input type="radio" value="Isosceles" name="question2">Isosceles</label>
             </div>
             <div class="question-container">
                 <p><span>Que3: </span>What type of triangle has no congruent sides? Congruent means equal.</p>
-                <label for="mcq"><input type="radio" value="Scalene" name="question3">Scalene</label>
-                <label for="mcq"><input type="radio" value="Isosceles" name="question3">Isosceles</label>
-                <label for="mcq"><input type="radio" value="Equilateral" name="question3">Equilateral</label>
+                <label><input type="radio" value="Scalene" name="question3">Scalene</label>
+                <label><input type="radio" value="Isosceles" name="question3">Isosceles</label>
+                <label><input type="radio" value="Equilateral" name="question3">Equilateral</label>
             </div>
             <div class="question-container">
                 <p><span>Que4: </span>What type of triangle has only 2 congruent sides? Congruent means equal.</p>
-                <label for="mcq"><input type="radio" value="Equilateral" name="question4">Equilateral</label>
+                <label><input type="radio" value="Equilateral" name="question4">Equilateral</label>
                 
-                <label for="mcq"><input type="radio" value="Isosceles" name="question4">Isosceles</label>
-                <label for="mcq"><input type="radio" value="Scalene" name="question4">Scalene</label>
+                <label><input type="radio" value="Isosceles" name="question4">Isosceles</label>
+                <label><input type="radio" value="Scalene" name="question4">Scalene</label>
             </div>
             <div class="question-container">
                 <p><span>Que5: </span>Sum of angle of triangle is : </p>
-                <label for="mcq"><input type="radio" value="360" name="question5">360</label>
-                <label for="mcq"><input type="radio" value="270" name="question5">270</label>
-                <label for="mcq"><input type="radio" value="180" name="question5">180</label>
+                <label><input type="radio" value="360" name="question5">360</label>
+                <label><input type="radio" value="270" name="question5">270</label>
+                <label><input type="radio" value="180" name="question5">180</label>
             </div>
             <div class="question-container">
                 <p><span>Que6: </span>Complete Angle is </p>
-                <label for="mcq"><input type="radio" value="270" name="question6">270</label>
-                <label for="mcq"><input type="radio" value="360" name="question6">360</label>
-                <label for="mcq"><input type="radio" value="180" name="question6">180</label>
+                <label><input type="radio" value="270" name="question6">270</label>
+                <label><input type="radio" value="360" name="question6">360</label>
+                <label><input type="radio" value="180" name="question6">180</label>
             </div>
             <div class="question-container">
                 <p><span>Que7: </span>Right Angle is </p>
-                <label for="mcq"><input type="radio" value="120" name="question7"question1>120</label>
-                <label for="mcq"><input type="radio" value="45" name="question7">45</label>
-                <label for="mcq"><input type="radio" value="90" name="question7">90</label>
+                <label><input type="radio" value="120" name="question7"question1>120</label>
+                <label><input type="radio" value="45" name="question7">45</label>
+                <label><input type="radio" value="90" name="question7">90</label>
             </div>
             
             <div class="question-container">
                 <p><span>Que8: </span>Acute angle lies below.</p>
-                <label for="mcq"><input type="radio" value="90" name="question8">90</label>
-                <label for="mcq"><input type="radio" value="120" name="question8">120</label>
-                <label for="mcq"><input type="radio" value="180" name="question8">180</label>
+                <label><input type="radio" value="90" name="question8">90</label>
+                <label><input type="radio" value="120" name="question8">120</label>
+                <label><input type="radio" value="180" name="question8">180</label>
             </div>
             <div class="question-container">
                 <p><span>Que9: </span>What is Straight Angle?</p>
-                <label for="mcq"><input type="radio" value="90" name="question9">90</label>
-                <label for="mcq"><input type="radio" value="180" name="question9">180</label>
-                <label for="mcq"><input type="radio" value="270" name="question9">270</label>
+                <label><input type="radio" value="90" name="question9">90</label>
+                <label><input type="radio" value="180" name="question9">180</label>
+                <label><input type="radio" value="270" name="question9">270</label>
             </div>
             <div class="question-container">
                 <p><span>Que10: </span>Obtuse angle lies between which of these?</p>
-                <label for="mcq"><input type="radio" value="180 and 270" name="question10">180 and 270</label>
-                <label for="mcq"><input type="radio" value="90 and 180" name="question10">90 and 180</label>
-                <label for="mcq"><input type="radio" value="270 and 360" name="question10">270 and 360</label>
+                <label><input type="radio" value="180 and 270" name="question10">180 and 270</label>
+                <label><input type="radio" value="90 and 180" name="question10">90 and 180</label>
+                <label><input type="radio" value="270 and 360" name="question10">270 and 360</label>
             </div>
         </form>
         <button id="submit-answer">Submit Answers</button>
@@ -93,7 +94,7 @@
         <footer class="footer">
             <div class="footer-div">
                <p>
-                  Made with <i class="fa fa-heart"></i> by <a href="/" target="_blank" class="with-para"> Arun</a>
+                  Made with <i class="fa fa-heart"></i> by <a href="https://arunshukla.netlify.app/" target="_blank" class="with-para"> Arun</a>
                   <br>
                   <a href="https://github.com/anshu1016" target="_blank"><i class="fa fa-github"></i></a>
                   <a href="https://twitter.com/ArunShu47012704" target="_blank"><i class="fa fa-twitter"></i></a>
